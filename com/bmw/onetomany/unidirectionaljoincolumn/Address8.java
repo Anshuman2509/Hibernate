@@ -1,4 +1,4 @@
-package com.bmw.onetomany.unidirectionaljointable;
+package com.bmw.onetomany.unidirectionaljoincolumn;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="addr")
-public class Address7 {
+public class Address8 {
 	@Id@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int addId;
 	private String city;
